@@ -9,7 +9,7 @@
 *{
   font-family: 'tesouro', sans-serif;
   box-sizing: border-box;
-  -webkit-text-stroke: 0.7px rgb(2, 2, 2);
+  -webkit-text-stroke: 0.3px rgb(2, 2, 2);
 }
 
 body{
@@ -27,7 +27,7 @@ body{
   
   margin: 5%;
   font-size: 300%;
-    -webkit-text-stroke: 0.4px rgb(0, 0, 0);
+    -webkit-text-stroke: 0.3px rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 
 }
@@ -47,6 +47,7 @@ img{
 }
 a{
   margin: 5%;
+  border: 0px solid rgb(182, 182, 182);
   width: 90%;
   font-size: 150%;
   font-weight: bold;
