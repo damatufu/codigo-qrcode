@@ -1,6 +1,3 @@
-@font-face {
-  font-family: 'tesouro'; /* Give it a name */
-  src: url('./treasure_map/GemText.txt') format('woff2'), /* Modern format */
        url('./treasure_map/TreasureMapDeadhand.ttf') format('woff');   /* Fallback */
   font-weight: normal;
   font-style: normal
@@ -46,7 +43,7 @@ img{
   
 }
 a{
-  margin: 10px 6px 6px 90px;
+  margin: 10px 5% 6px 5%;
   width: 90%;
   font-size: 64px;
   font-weight: bold;
@@ -54,7 +51,7 @@ a{
 
 }
 h6{
-  margin: 80px 50px 30px 90px;
+  margin: 80px 5% 30px 5%;
   font-size: 32px;
   font-weight:lighter;
   padding: 15px;
