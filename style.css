@@ -45,16 +45,19 @@ img{
     border: 3px solid rgb(182, 182, 182);
   
 }
-a{
+
+h1{
   margin: 5%;
   text-align: left;
-  text-align-last: left;  
   width: 90%;
+}
+
+a{
   font-size: 150%;
   font-weight: bold;
   color:rgb(226, 226, 226);
-
 }
+
 h6{
   margin: 5%;
   font-size: 150%;
