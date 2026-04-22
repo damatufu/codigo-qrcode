@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'tesouro'; /* Give it a name */
+  src: url('./treasure_map/GemText.txt') format('woff2'), /* Modern format */
+       url('./treasure_map/TreasureMapDeadhand.ttf') format('woff');   /* Fallback */
+  font-weight: normal;
+  font-style: normal
+}
+
+*{
+  font-family: 'tesouro', sans-serif;
+  box-sizing: border-box;
+  -webkit-text-stroke: 0.7px rgb(2, 2, 2);
+}
+
+body{
+  
+    /* background-color:rgb(64, 0, 0) */
+    background-image: url("./imagens/backgroung-map_black.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+
+.prox{
+  
+  margin: 60px 0px 0px 0px;
+  font-size: 40px;
+    -webkit-text-stroke: 0.7px rgb(172, 172, 172);
+  color: rgb(255, 255, 255);
+
+}
+
+h2{
+  font-family: sans-serif;
+  font-size: 42px;
+    padding: 10px;
+  width: 300px;
+  background-color: rgb(226, 226, 226);
+  border: 1px solid rgb(182, 182, 182);
+}
+img{
+    width: 70%;
+    border: 3px solid rgb(182, 182, 182);
+  
+}
+a{
+  margin: 10px 6px 6px 90px;
+  width: 1050px;
+  font-size: 64px;
+  font-weight: bold;
+  color:rgb(226, 226, 226);
+
+}
+h6{
+  margin: 80px 30px 30px 90px;
+  font-size: 32px;
+  font-weight:lighter;
+  padding: 15px;
+  width: 1050px;
+  border: 1px solid rgb(182, 182, 182);
+  text-align: left;
+  background-color: rgb(226, 226, 226);
+}
